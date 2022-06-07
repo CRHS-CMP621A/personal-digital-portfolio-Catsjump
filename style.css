@@ -1,0 +1,224 @@
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-style: none none solid none;
+  border-color: white;
+  background: #c0c0c0;
+  z-index: 2;
+}
+
+#weblink{
+  padding: 0;
+}
+
+.contactInfo{
+  height: 500px;
+  width:800px;
+}
+
+body{
+  z-index: 1;
+  margin: 0px;
+  background-color: #008080;
+}
+
+.titleButton{
+  margin-right: 5px;
+  height: 40px;
+  font-size: 15px;
+}
+
+.projectInfo{
+  display: flex;
+}
+
+.projectImg{
+  padding: 10px;
+}
+
+.projectText{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.mainText{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.projectsWindow{
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: none;
+  width: 800px;
+}
+
+
+ul.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #c3c3c3;
+}
+
+.list1{
+float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.dropbtn{
+  height: 40px;
+  font-size: 15px;
+}
+
+li.list1 a:hover, .dropdown:hover .dropbtn{
+  background-color: #a0a0a0;
+}
+
+li.dropdown {
+  /*display: inline-block;*/
+  float: right;   
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a { 
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+body{
+  margin: 0;
+
+}
+
+.container{
+  margin-top: 100px;
+  
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  /*
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  gap: 30px;*/
+}
+
+.imgContainer{
+  margin: auto;
+  display: flex;
+  margin-bottom: 30px;
+  height: 250px;
+}
+
+.img1{
+  left: 56.25px;
+}
+
+.img2{
+  left: 56.25px;
+  opacity: 0.0;
+}
+
+.picBox{
+  width: 306px;
+}
+
+.abtMe{
+  width: 350px;
+}
+
+.projectsBox{
+  width: 350px; 
+}
+
+.field-row{
+  margin-bottom: 20px;
+}
+
+
+ul.projectsList{
+  list-style-type: none;
+}
+
+li.projectsList{
+  margin-bottom: 3px;
+  margin-left: -3px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+p{
+  padding: 10px;
+}
+
+footer{
+  background: #c0c0c0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  border-style: solid none none none;
+  border-color: white;
+}
+
+
+h3{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+
+
+/*link styling*/
+
+/* unvisited link */
+a.projectLink:link {
+  color: #000000;
+}
+
+/* visited link */
+a.projectLink:visited {
+  color: rgb(113, 0, 141);
+}
+
+/* mouse over link */
+a.projectLink:hover {
+  color: rgb(37, 37, 37);
+  text-decoration: none;
+
+}
+
+/* selected link */
+a.projectLink:active {
+  text-decoration: none;
+}

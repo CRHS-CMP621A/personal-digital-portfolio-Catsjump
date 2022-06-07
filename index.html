@@ -1,14 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--
+			Date: May 2022
+			Student Name: Cameron Fairbanks
+      
+      NEED TO DO LIST: 
+      ALT text for images
+
+
+
+
+
+		-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    
     <!-- STYLES -->
+    <link rel="stylesheet" href="https://unpkg.com/98.css" />
     <link href="style.css" rel="stylesheet" />
 
     <!-- Title -->
-    <title>About Me</title>
+    <title>Cameron's Digital Portfolio</title>
   </head>
 
-  <body></body>
+  <body>
+    <ul class="navbar"> <!--was a ul for reference-->
+			<li class="list1"><a id="weblink" href="index.html"><button class="titleButton">Cameron Fairbanks</button></a></li> <!--was a li-->
+      <li class="list1"><a id="weblink" href="second.html"><button class="titleButton">Contact info</button></a></li>
+      
+			<li class="dropdown">
+				<button class="dropbtn">External Links</button>
+				<div class="dropdown-content">
+					<a href="https://docs.google.com/document/d/1p_NibI1lzGXlIq7T2W5uPzxh_0xoryW3wkq0Rs1Axjg/edit?usp=sharing" target="_blank">My resume</a>
+					<a href="https://github.com/Catsjump" target="_blank">Github</a>
+					<a href="https://www.instagram.com/cameron.fairbanks/" target="_blank">Instagram</a>
+				</div>
+			</li>
+      
+		</ul>
+
+    <!-- i need to make win98 looking boxes -->
+    <div class='container'>
+
+      <div class="window picBox">
+        <div class="title-bar">
+          <div class="title-bar-text">Just a normal picture of me...</div>
+          <div class="title-bar-controls">
+            <button aria-label="Close">X</button>
+          </div>
+        </div>
+        <h3>Cameron Fairbanks</h3>
+        <div class="imgContainer" style="position:relative">
+          <img class ="img1" src="images/IMG_20211011_010534_300.jpg" height="250px"alt="picture or avatar of ME" style="position:absolute;"/>
+          <img class ="img2" src="images/Illustration.png" height="250px" style="position:absolute;"/>
+        </div>
+        <div class="field-row" style="width: 300px">
+          <input class = "plshelp" id="imageRange" type="range" min="0" max="10" value="0" />
+        </div>
+      </div>
+
+      <div class="window abtMe">
+        <div class="title-bar">
+          <div class="title-bar-text">About Me!</div>
+          <div class="title-bar-controls">
+            <button aria-label="Close">X</button>
+          </div>
+        </div>
+        <h3>About Me</h3>
+        <p class="mainText">I'm a cool person who enjoys programming, studying, playing games, watching anime, and talking with other people. 
+          I do a lot of projects in my freetime and I've been playing a bunch of the soulsborne games lately. I spend way too much time working on 
+          VR projects but they're pretty cool. I'm currently working at a gas station but it's not very fun.
+        </p>
+      </div>
+
+      <div class="window projectsBox">
+        <div class="title-bar">
+          <div class="title-bar-text">Cool projects I've worked on!</div>
+          <div class="title-bar-controls">
+            <button aria-label="Close">X</button>
+          </div>
+        </div>
+        <h3>My Projects!</h3>
+        <p class="mainText">Just a few projects I've worked on either at home or for school. These are some of my favourites!</p>
+        <ul class='projectsList'>
+          <li class='projectsList'><button class="vr">VR Haptics glove</button> --> work in progress VR gloves</li>
+          <li class='projectsList'><button class="leaf">Nanoleaf panels</button> --> Some cool light panels that I made!</li>
+          <li class='projectsList'><button class="funnyBox">Funny looking box</button> --> just a box with no specific function...</li>
+        </ul>
+        <!--
+        <ul>
+          <li>Links</li>
+          <li>Images/Videos</li>
+          <li>Contact Info</li>
+          <li>Project/Showcase files and docs</li> show some 3d projects like the light panels, and stuff i did previous years in comp sci and robotics
+          <li>my resume?</li>
+          <li><a href="mailto:cafa5306@cloud.edu.pe.ca">Email me</a></li>
+        </ul>
+        -->
+      </div>
+
+    </div> 
+    <div class="window projectsWindow">
+      <div class="title-bar">
+        <div class="title-bar-text projectTitle">Something</div>
+        <div class="title-bar-controls">
+          <button class="close" aria-label="Close"></button>
+        </div>
+      </div>
+      <div class="projectInfo">
+        <div class="img">
+          <img class="projectImg" src="" height="450px">
+        </div>
+        <div>
+          <p class="projectText">stuff</p>
+          <a class="projectLink" id = "projectL1" href="https://github.com/LucidVR/lucidgloves">Here's a link to the github!</a>
+          <a class="projectLink" id = "projectL2" href="https://www.thingiverse.com/thing:3230905">Here's a link to the project!</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <footer>
+      <a href="mailto:cafairbanks002@gmail.com"><button class="titleButton">Email me!</button></a>
+    </footer>
+  <script src="script.js"></script>
+  </body>
 </html>

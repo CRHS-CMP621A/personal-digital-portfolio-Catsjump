@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <!-- STYLES -->
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- Title -->
+    <title>Brainstorm</title>
+  </head>
+
+  <body>
+
+    <nav>
+      <p class="myName">Cameron Fairbanks</p>
+      <ul class="navList">
+        <li>1</li>
+        <li>2</li>
+        <li>Contact info</li>
+      </ul>
+    </nav>
+
+
+    <main>
+
+      <div class="picbox">
+        <img src="" alt="picture or avatar of ME" />
+        <h3>About Me</h3>
+        <p>I'm a cool person who enjoys programming, studying, playing games, watching anime, and talking with other people.</p>
+      </div>
+
+      <div class="project1">
+        <h3>project #1</h3>
+      </div>
+
+      <div class="list">
+        <h3>A collection of ...</h3>
+        <p>Use headers to organize/group your resources</p>
+        <ul>
+          <li>Links</li>
+          <li>Images/Videos</li>
+          <li>Contact Info</li>
+          <li>Project/Showcase files and docs</li><!-- show some 3d projects like the light panels, and stuff i did previous years in comp sci and robotics-->
+          <li>my resume?</li>
+          <li><a href="mailto:cafa5306@cloud.edu.pe.ca">Email me</a></li>
+        </ul>
+      </div>
+
+    </main> 
+
+    <footer>
+      <p>cool footer here</p>
+    </footer>
+
+  </body>
+</html>

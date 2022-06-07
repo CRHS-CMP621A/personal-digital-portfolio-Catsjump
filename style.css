@@ -214,7 +214,7 @@ a.projectLink:visited {
 /* mouse over link */
 a.projectLink:hover {
   color: rgb(37, 37, 37);
-  text-decoration: underline;
+  text-decoration: none;
 
 }
 
